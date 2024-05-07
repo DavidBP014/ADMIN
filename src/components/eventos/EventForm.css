@@ -1,0 +1,41 @@
+.event-form-container {
+    width: 70%;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.event-form-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+input[type="text"], input[type="email"], input[type="date"], textarea {
+    margin: 10px 0;
+    padding: 8px;
+    background-color: #948e89; /* Color café para los campos de entrada */
+    color: white; /* Color del texto en los campos para mejorar la visibilidad */
+    border: 1px solid #ccc; /* Borde claro para definir los campos */
+    width: 100%; /* Asegura que todos los campos ocupen el mismo ancho */
+}
+
+textarea {
+    height: 100px;
+    background-color: #948e89; /* Color café también para el textarea */
+    color: white; /* Texto blanco para una buena visibilidad */
+}
+
+.buttons button {
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #948e89; /* Color café también para los botones */
+    color: white; /* Texto blanco para los botones */
+    border: none; /* No border para un look más limpio */
+    cursor: pointer;
+    border-radius: 5px; /* Bordes redondeados para los botones */
+    transition: background-color 0.3s ease; /* Transición suave al cambiar de color */
+}
+
+.buttons button:hover {
+    background-color: #7a736e; /* Color más oscuro en hover para contraste */
+}

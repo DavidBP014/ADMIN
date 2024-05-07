@@ -1,0 +1,22 @@
+.jardines-form-container {
+    width: 60%;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.jardines-form-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+input[type="text"], input[type="number"], input[type="email"] {
+    margin: 10px 0;
+    padding: 8px;
+}
+
+.buttons button {
+    margin: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+}

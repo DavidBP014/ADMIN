@@ -1,0 +1,26 @@
+.blog-form-container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.blog-form-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+input[type="text"], input[type="date"], textarea {
+    margin: 10px 0;
+    padding: 8px;
+}
+
+textarea {
+    height: 150px;
+}
+
+.buttons button {
+    margin: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
